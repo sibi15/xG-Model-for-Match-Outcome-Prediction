@@ -47,6 +47,15 @@ def calculateChance(home, away):
     
     print("Over 10000 games, home wins {}%, away wins {}% and there is a draw in {}% of games.".format(home_win,away_win,draw))
 
-HomexG = [0.15,0.22,0.33,0.18]
-AwayxG = [0.25,0.45,0.33]
+
+HomexG = []
+AwayxG = []
+
+n_home = int(input("Enter number of shots taken by home team: ")
+for i in range(n_home):
+    HomexG[i] = int(input("Enter home team shot xG: ")
+                    
+n_away = int(input("Enter number of shots taken by away team: ")
+for i in range(n_away):
+    AwayxG[i] = int(input("Enter away team shot xG: ")
 calculateChance(HomexG,AwayxG)
