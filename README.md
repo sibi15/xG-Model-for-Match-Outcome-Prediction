@@ -1,4 +1,4 @@
-# xG-for-match-prediction
+# xG-Model-for-Match-Prediction
 This project aims to predict the outcome of football matches.
 It is done by using a parameter called the xG (Expected Goal) for each shot that is taken.
 User will be prompted to enter the number of shots for both the teams and the xG for each shot.
