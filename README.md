@@ -1,5 +1,14 @@
-# xG-Model-for-Match-Prediction
-This project aims to predict the outcome of football matches.
-It is done by using a parameter called the xG (Expected Goal) for each shot that is taken.
-User will be prompted to enter the number of shots for both the teams and the xG for each shot.
-Based on input, the winner will be found using random module and outcome percentage over a number of hypothetical matches will be outputed.
+# xG Model for Match Prediction
+This project is a basic football match simulation tool built in Python that forecasts the outcome of a game based on shot-level expected goals (xG). Users input xG values for each shot taken by both the home and away teams. The model simulates 10,000 matches using a probabilistic approach to goal scoring and outputs the percentages of each possible result: home win, away win, or draw.
+
+Tools & Concepts:
+- Expected Goals (xG): Each shot is evaluated using its probability of becoming a goal.
+- Monte Carlo Simulation: Repeats the match 10,000 times to capture realistic variation.
+- Random Module: Determines goal outcomes based on shot xG.
+
+Features:
+- User-defined shot data (number of shots + xG per shot)
+- Shot-by-shot probability-based scoring
+- Calculates winner of each match
+- Aggregates outcomes to show statistical probability for each result
+- Simple and interactive CLI-based tool
